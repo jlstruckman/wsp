@@ -1,0 +1,53 @@
+
+
+body{
+	
+	font-family:Palatino Linotype;
+	margin:auto;
+	width:70%;
+	text-transform: uppercase;
+}
+
+hr{
+	width: 60%;
+	margin: %;
+	margin-left: 0%;
+	border:none;
+    height:1px;
+	background-color: #c5c5c5;
+	 background: black;
+    background: -webkit-gradient(linear, 100% 0, 0 0, from(white), to(black), color-stop(50%, black));
+}
+
+span{
+	letter-spacing:2px
+}
+	
+   
+/* LINKS */
+a:link {
+	color:#000000; 
+	background:transparent; 
+	text-decoration:none;
+}
+
+a:visited { 
+	color:#000000; 
+	background:transparent; 
+	text-decoration:none; 
+}
+
+a:hover { 
+	color: #008080; 
+	background:transparent; 
+	text-decoration: none;
+	border-bottom: 3px solid #fff; 
+}
+
+a:active { 
+	color: #000000;
+	background: transparent; 
+	text-decoration: none; 
+} 
+
+
