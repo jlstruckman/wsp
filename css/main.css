@@ -1,11 +1,17 @@
 
 
 body{
-	
+	background-image: url("../textures/gray.png");
+	background-size: ;
+	background-repeat:repeat;
 	font-family:Palatino Linotype;
 	margin:auto;
 	width:70%;
 	text-transform: uppercase;
+}
+
+h1{
+text-shadow:2px 2px #c2c2c2;
 }
 
 hr{
@@ -21,6 +27,7 @@ hr{
 
 span{
 	letter-spacing:2px
+	text-shadow:2px 2px #c2c2c2;
 }
 	
    
