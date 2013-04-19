@@ -1,0 +1,9 @@
+body{
+	background-image: url("../img/rockywall.png");
+	background-repeat:repeat;
+	margin: 0 10% 0;
+}
+
+img {
+    background: #3A6F9A;
+    vertical-align: top;

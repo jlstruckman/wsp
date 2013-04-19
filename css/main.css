@@ -1,45 +1,47 @@
 
 
 body{
-	background-image: url("../textures/gray.png");
+	background-image: url("../textures/boop.png");
 	background-size: ;
 	background-repeat:repeat;
-	font-family:Palatino Linotype;
+	font-family: Palatino Linotype;
+	letter-spacing:1px;
+	color: #ffffff;
 	margin:auto;
 	width:70%;
 	text-transform: uppercase;
 }
 
-h1{
-text-shadow:2px 2px #c2c2c2;
+h1, h3{
+text-shadow:2px 2px #5C7887;
 }
 
 hr{
 	width: 60%;
 	margin: %;
 	margin-left: 0%;
-	border:none;
+	border-bottom: 1px solid #5c7887; 
     height:1px;
 	background-color: #c5c5c5;
-	 background: black;
-    background: -webkit-gradient(linear, 100% 0, 0 0, from(white), to(black), color-stop(50%, black));
+	 background: white;
+    background: -webkit-gradient(linear, 100% 0, 0 0, from(white), to(white), color-stop(50%, white));
 }
 
 span{
 	letter-spacing:2px
-	text-shadow:2px 2px #c2c2c2;
+	text-shadow:2px 2px #5C7887;
 }
 	
    
 /* LINKS */
 a:link {
-	color:#000000; 
+	color:#ffffff; 
 	background:transparent; 
 	text-decoration:none;
 }
 
 a:visited { 
-	color:#000000; 
+	color:#ffffff; 
 	background:transparent; 
 	text-decoration:none; 
 }
@@ -52,7 +54,7 @@ a:hover {
 }
 
 a:active { 
-	color: #000000;
+	color: #ffffff;
 	background: transparent; 
 	text-decoration: none; 
 } 
