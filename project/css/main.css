@@ -2,18 +2,71 @@
 
 @import url("reset.css");
 
+body{
+	background-image: url("../img/bg.png");
+}
+
+#wrapper{
+	width="100%";
+	margin: 0 auto;
+}
 
 #logo{
 	width:10%;
 	height:10%;
 }
 
-nav li{
+#sn{
+float: left;
 display:block; 
 font-size: 18px;
-text-align: ;
+text-align: left;
+}
+	
+nav{
+width: 80%;
+  margin: 0 auto;
+  padding: 10px 0 10px 10px;
+  background: #aaa;
+  border: 1px solid #999;
+}
+
+nav li{
+float: left;
+display:block; 
+font-size: 18px;
+text-align: left;
+}
+.news{
+width: 60%;
+  margin: 0 auto;
+  float: left;
+  padding: 10px 0 10px 10px;
+  background: #aaa;
+  border: 1px solid #999;
+}
+
+.twitter{
+	width: 20%;
+  margin: 0 auto;
+  foat: right;
+  padding: 10px 0 10px 10px;
+  background: #aaa;
+  border: 1px solid #999;
+  }
+
+footer{ 
+  width: 80%;
+  margin: 0 auto;
+  padding: 10px 0 10px 10px;
+  background: #aaa;
+  border: 1px solid #999;
 }
 
 footer li {
-display:block; 
+	float: left;
+	display:block; 
+	width:3em;
+	text-align: right;
+	border: 0px;
 }
