@@ -1,0 +1,390 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+:focus {
+	outline: 0;
+}
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+html {
+	height: 100%;
+}
+header, nav, section, article, aside, footer {
+	display: block;
+}
+body {
+	font: 12px/18px Arial, Tahoma, Verdana, sans-serif;
+	height: 100%;
+	background-image: url("img/bg.png"); ;
+	
+}
+a {
+	color: blue;
+	outline: none;
+	text-decoration: underline;
+}
+a:hover {
+	text-decoration: none;
+}
+p {
+	margin: 0 0 18px
+}
+img {
+	border: none;
+}
+input {
+	vertical-align: middle;
+}
+#wrapper {
+	min-width: 400px;
+	max-width: 1000px;
+	margin: 0 auto;
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+}
+
+
+@font-face {
+	font-family: Aller;
+	src: url("fonts/Aller_Rg.ttf");
+	font-family: 3Dumb;
+	src: url("fonts/3Dumb.ttf");
+}
+#web {
+	width:100%;
+	margin-left: 0;
+	position:absolute;
+	top: -20%;
+	z-index:-1;
+}
+
+/* Header
+-----------------------------------------------------------------------------*/
+#header {
+	padding: 0 20px 0;
+	height: 50px;
+	margin-top: -10px;
+	text-transform: uppercase;
+	/*font-family: Century Gothic;*/
+
+	background: #FF5F13;
+    border-radius: 10px;
+	
+}
+
+header p{
+line-height: 60px;
+}
+
+
+
+
+#logo {
+	position: relative;
+	top: -10px;
+	left: 40px;
+}
+
+#social_network {
+	display: block;
+	width: 500px;
+
+	position: relative;
+	left: 450px;
+	top: -50px;
+	
+	
+}
+
+.social_network_link {
+	padding-right: 30px;
+	width: 40px;
+	height: 40px;
+}
+
+#banner {
+width: 100%;
+ margin-left: 5px;
+ clear: both;
+ }
+
+
+/* Links
+-----------------------------------------------------------------------------*/
+a:link {color:#FFFFFF;}      /* unvisited link */
+a:visited {color:#FFFFFF;}  /* visited link */
+a:hover {color:#000000;}  /* mouse over link */
+a:active {color:#000000;}  /* selected link */
+
+/* Middle
+-----------------------------------------------------------------------------*/
+#middle {
+	width: 100%;
+	padding: 0 0 150px;
+	height: 1%;
+	position: relative;
+}
+#middle:after {
+	content: '';
+	clear: both;
+	display: table;
+}
+#container {
+	width: 100%;
+	float: left;
+	overflow: hidden;
+}
+#content {
+	padding: 10px 270px 20px 20px;
+	font-family: Aller;
+}
+
+h1{
+	font-family: 3Dumb;
+	font-size:2em;
+}
+
+h2{
+	font-family: Century Gothic;
+	color: #ff5f13;
+}
+
+hr{
+width: 95%;
+background-color: #a0a0a0;
+}
+
+p{
+ font-family: Century Gothic;
+}
+
+#form_style{
+	width:60%;
+}
+
+#bands{
+font-family: Century Gothic;
+-moz-column-count:3; /* Firefox */
+-webkit-column-count:3; /* Safari and Chrome */
+column-count:3;
+}
+
+#tours{
+	font-family: Century Gothic;
+	width: 90%;
+}
+
+/* Sidebar Right
+-----------------------------------------------------------------------------*/
+#sideRight {
+	float: left;
+	margin-right: -3px;
+	width: 250px;
+	margin-left: -250px;
+	position: relative;
+	font-family: Century Gothic;
+}
+
+.sideRight h2{
+	color: #ff5f13;
+}
+
+
+/* Footer
+-----------------------------------------------------------------------------*/
+#footer_outside {
+	display: block;
+	width: 100%;
+	margin: -150px auto 0;
+	height: 150px;
+	background-color: grey;
+	background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#000)); /* for webkit browsers */
+	background: -moz-linear-gradient(top,  #222,  #000); /* for firefox 3.6+ */
+	opacity: 0.3;
+	filter:alpha(opacity=40); /* <IE8 below */
+
+	position: relative;
+	
+}
+
+#footer {
+	background-image: url(img/es.png);
+	background-repeat: repeat;
+}
+
+#footer_latest_news, #footer_new_releases, #footer_address {
+	float: left;
+	width: 30%;
+	color: #fff;
+	margin: 6px 0px;
+	padding: 4px 10px;
+	height: 100px;
+	border-left: 1px solid #fff;
+	z-index: 1;
+	position: relative;
+}
+
+#footer_address {
+	text-align: center;
+}
+
+#footer_bar {
+	display: block;
+	}
+
+
+footer p{
+	padding: 9px 10px 10px;
+	z-index: 1;
+	text-align: right;
+	position: relative;
+	font-family: Century Gothic;
+	text-transform: uppercase;
+}
+
+#copyright{
+	/*padding: 93px 4px 4px;
+	text-align: left;
+	font-family: Century Gothic;
+	text-transform: uppercase;*/
+	color: #ffffff;
+}
+
+
+
+#web2 {
+	width: 400px;
+	position:absolute;
+	top: 2%;
+	left:37%;
+	z-index:-1;
+
+}
+
+#mega_container_of_doom {
+	display: block;
+	margin: 0 auto;
+	width: 820px;
+}
+
+/* Gallery
+-----------------------------------------------------------------------------*/
+.thumbnail {
+	float: left;
+	width: 100px;
+	border: 1px solid #999;
+	margin: 0 15px 15px 0;
+	padding: 5px;
+}
+
+.thumbnail img{
+	width: 100px;
+}
+
+
+/* Mediaaaaa
+-----------------------------------------------------------------------------*/
+
+@media screen and (max-width: 480px) {
+
+	#header {
+		height: 24%;
+}
+	
+	#social_network {
+		display: none;
+}
+
+	#banner {
+		display: none;
+}
+
+	#middle {
+		width: 80%;
+		height: auto;
+		float: none;
+		margin: 20px 0;
+		clear: both;
+}
+	
+	.thumbnail, .thumbnail img {
+		width: 20px;
+}
+
+	#sideRight {
+		display: none;
+}
+
+	#footer {
+		max-width: 53%;
+		background-image: url(img/es.png);
+		background-repeat: repeat;
+}
+	#footer_latest_news, #footer_new_releases, #footer_address {
+		display: none;
+}
+
+}
+
+
+@media screen and (max-width: 550px) {
+
+	#banner {
+		display: none;
+}
+	
+	#social_network {
+		display: none;
+}
+
+	#sideRight {
+		display: none;
+}
+	#footer_latest_news, #footer_new_releases {
+		display: none;
+}
+
+}
+
+@media screen and (max-width: 640px) {
+	#social_network {
+		display: none;
+}
+
+	#sideRight {
+		display: none;
+}
+
+
+}
+
+
